@@ -1,0 +1,7 @@
+Good job! 
+
+I wasn't quite sure if you had misunderstanding with the spatial CV or not, 
+but just to make sure note that the spatial CV is NOT used for selecting some optimal dead zone radius. 
+
+It is just used to investigate the spatial prediction performance of a model. 
+In practice it however might be the case that we could say "we shouldn't make predictions farther than 100 meters, because then the model gets too unreliable, based on the results"
